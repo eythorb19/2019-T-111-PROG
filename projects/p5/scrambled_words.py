@@ -7,6 +7,7 @@ def scramble_file_content(filename):
         scrambled_word = scramble(word)
         print(scrambled_word, end=' ')
     print()
+    data_file.close()
 
 def swap_adjacent(sequence):
     odd = False
