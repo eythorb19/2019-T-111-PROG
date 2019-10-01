@@ -1,0 +1,51 @@
+State                     1960         1950
+Maine                      1125043	     993722
+New Hampshire               920610		 737681
+Vermont                     511456		 444732
+Massachusetts              5737093	    5689170
+Rhode Island                947154		 949723
+Connecticut                3107564	    3032217
+New York                  23667764     19971069
+New Jersey                 7365011	    7171112
+Pennsylvania              11864720	   11800766
+Ohio                      10797603	   10657423
+Indiana                    5490210	    5195392
+Illinois                  11427409	   11110285
+Michigan                   9262044	    8881826
+Wisconsin                  4705642	    4417821
+Minnesota                  4075970	    3806103
+Iowa                       2913808	    2825368
+Missouri                   4916766	    4677623
+North Dakota                652717		 617792
+South Dakota                690768		 666257
+Nebraska                   1569825	    1485333
+Kansas                     2364236	    2249071
+Delaware                    594338		 548104
+Maryland                   4216933	    3923897
+Virginia                   5346797	    4651448
+West Virginia              1950186	    1744237
+North Carolina             5880095	    5084411
+South Carolina             3120729	    2590713
+Georgia                    5462982	    4587930
+Florida                    9746961	    6791418
+Kentucky                   3660324	    3220711
+Tennessee                  4591023	    3926018
+Alabama                    3894025	    3444354
+Mississippi                2520770	    2216994
+Arkansas                   2286357	    1923322
+Louisiana                  4206116	    3644637
+Oklahoma                   3025487	    2559463
+Texas                     14225513	   11198655
+Montana                     786690	     694409
+Idaho                       944127		 713015
+Wyoming                     469557		 332416
+Colorado                   2889735	    2209596
+New Mexico                 1303302	    1017055
+Arizona                    2716546	    1775399
+Utah                       1461037	    1059273
+Nevada                      800508		 488738
+Washington                 4132353	    3413244
+Oregon                     2633156	    2091533
+California                17558165	   18241391
+Alaska                      401851		 302853
+Hawaii                      964691		 769913
