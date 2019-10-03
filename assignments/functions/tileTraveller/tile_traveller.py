@@ -57,6 +57,20 @@ def find_directions(col, row):
         valid_directions = SOUTH+WEST
     return valid_directions
 
+def play(col, row, valid_directions):
+    ''' Plays one move of the game
+        Return if victory has been obtained and updated col,row '''
+    victory = False
+    direction = input("Direction: ")
+    direction = direction.lower()
+    
+    if not direction in valid_directions:
+        print("Not a valid direction!")
+    else:
+        col, row = move(direction, col, row)
+        victory = is_victory(col, row)
+    return victory, col, row
+
 # The main program starts here
 victory = False
 row = 1
@@ -66,18 +80,9 @@ valid_directions = NORTH
 print_directions(valid_directions)
 
 while not victory:
-    direction = input("Direction: ")
-    direction = direction.lower()
-    
-    if not direction in valid_directions:
-        print("Not a valid direction!")
+    victory, col, row = play(col, row, valid_directions)
+    if victory:
+        print("Victory!")
     else:
-        col, row = move(direction, col, row)
-        victory = is_victory(col, row)
-        if victory:
-            print("Victory!")
-        else:
-            valid_directions = find_directions(col, row)
-            print_directions(valid_directions)
-            
-        
+        valid_directions = find_directions(col, row)
+        print_directions(valid_directions)
