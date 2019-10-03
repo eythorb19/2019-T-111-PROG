@@ -57,7 +57,7 @@ def find_directions(col, row):
         valid_directions = SOUTH+WEST
     return valid_directions
 
-def play(col, row, valid_directions):
+def play_one_move(col, row, valid_directions):
     ''' Plays one move of the game
         Return if victory has been obtained and updated col,row '''
     victory = False
@@ -80,7 +80,7 @@ valid_directions = NORTH
 print_directions(valid_directions)
 
 while not victory:
-    victory, col, row = play(col, row, valid_directions)
+    victory, col, row = play_one_move(col, row, valid_directions)
     if victory:
         print("Victory!")
     else:
